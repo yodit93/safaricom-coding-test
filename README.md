@@ -72,7 +72,7 @@ A Next.js starter template, built with **Next.js**, styled using **Tailwind CSS*
 ### 💻 Desktop
 
 ![Desktop Screenshot]
-
+(/)
 
 ### 📱 Mobile View
 

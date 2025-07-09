@@ -7,7 +7,7 @@ const Confirmation = () => {
         bank: '',
         branch: '',
         accName: '',
-        accNon: '',
+        accNo: '',
         file: ''
 
     })
@@ -19,7 +19,7 @@ const Confirmation = () => {
         }
     }, [])
   return (
-    <div className='bg-gray-100 w-[90%]'>
+    <div className='bg-gray-100 w-[90%] m-4'>
       <h2>Fund Withdrawal Option</h2>
       <div className='flex flex-col sm:flex-row flex-wrap gap-4'>
         <div className='flex-1'>
@@ -27,23 +27,23 @@ const Confirmation = () => {
                 <span className='font-bold'>BANK NAME</span>
                 <span>{data.bank}</span>
             </div>
-            <div>
+            <div className='flex flex-col'>
                 <span className='font-bold'>BANK BRANCH NAME</span>
                 <span>{data.branch}</span>
             </div>
         </div>
          
        <div className='flex-1'>
-            <div>
+            <div className='flex flex-col'>
                 <span className='font-bold'>ACCOUNT NUMBER</span>
-                <span>{data.accNon}</span>
+                <span>{data.accNo}</span>
             </div>
-            <div>
+            <div className='flex flex-col'>
                 <span className='font-bold'>PROOF OF BANK ACCOUNT</span>
                 <span className='text-green-600'>{data.file}</span>
             </div>
        </div>
-        <div className='flex-1'>
+        <div className='flex-1 flex flex-col'>
             <span className='font-bold'>ACCOUNT NAME</span>
             <span>{data.accName}</span>
         </div>
