@@ -71,7 +71,8 @@ A Next.js starter template, built with **Next.js**, styled using **Tailwind CSS*
 
 ### 💻 Desktop
 
-![Desktop Screenshot](./screenshots/home.png)
+![Desktop Screenshot]
+
 
 ### 📱 Mobile View
 
