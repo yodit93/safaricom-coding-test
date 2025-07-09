@@ -69,16 +69,15 @@ A Next.js starter template, built with **Next.js**, styled using **Tailwind CSS*
 
 ## 📸 Screenshots <a name="screenshots"></a>
 
-### 💻 Desktop
+(/1.png)
+(/2.png)
+(/3.png)
+(/4.png)
+(/5.png)
+(/6.png)
+(/7.png)
 
-![Desktop Screenshot]
-(/)
 
-### 📱 Mobile View
-
-![Mobile Screenshot](./screenshots/mobile.png)
-
-> You can replace the above image links with your actual screenshots
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
