@@ -69,13 +69,13 @@ A Next.js starter template, built with **Next.js**, styled using **Tailwind CSS*
 
 ## 📸 Screenshots <a name="screenshots"></a>
 
-(/1.png)
-(/2.png)
-(/3.png)
-(/4.png)
-(/5.png)
-(/6.png)
-(/7.png)
+![Screenshot](public/1.png)
+![Screenshot](public/2.png)
+![Screenshot](public/3.png)
+![Screenshot](public/4.png)
+![Screenshot](public/5.png)
+![Screenshot](public/6.png)
+
 
 
 
