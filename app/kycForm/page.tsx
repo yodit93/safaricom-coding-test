@@ -64,7 +64,7 @@ const KYCForm = () => {
     const handleChange = (e:React.ChangeEvent<HTMLInputElement | HTMLSelectElement>) => {
         const {name, value} = e.target;
         if (e.target.type === 'file') {
-            const acceptedTypes = ['application/pdf', 'image/jpg', 'image/png'];
+            const acceptedTypes = ['application/pdf', 'image/jpeg', 'image/png'];
             const file = e.target.files?.[0];
             if(file && acceptedTypes.includes(file.type)) {
                 setData((prev) => ({
@@ -72,6 +72,7 @@ const KYCForm = () => {
                     [name]: file
                 }))
             } else {
+                setTouched((prev) => ({...prev, file: true}))
                 setErrors((prev) => ({
                     ...prev,
                     [name]: 'The file type is not accepted. Only pdf, png, and jpg are accepted'
