@@ -18,7 +18,7 @@ const Navigation = () => {
             <ul className={`flex gap-4 items-center font-bold ${showMenu ? 'flex-col bg-amber-50 text-green-600 text-sm absolute right-0' : 'hidden sm:flex'}`}>
                 <li><Link href=''>APPLY</Link></li>
                 <li><Link href=''>RECOMMEND</Link></li>
-                <li className={`${pathName === '/login' ? 'bg-white text-green-600 rounded-md p-2' : ''}`}><Link href=''>LOGIN</Link></li>
+                <li className={`${pathName === '/login' ? 'bg-white text-green-600 rounded-md p-2' : ''}`}><Link href='/login'>LOGIN</Link></li>
             </ul>
         </nav>
       </div>
